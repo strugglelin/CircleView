@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-// 配置1
+// 配置1: bintray 插件
 apply plugin: 'com.novoda.bintray-release'// 添加 bintray 插件
 
 android {
@@ -35,13 +35,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-// 配置2
+// 配置2:项目发布信息
 publish {
     userOrg = 'strugglelin'             // Bintray用户名
     repoName = 'CircleView'          // Bintray上创建的仓库名（Repository）
     groupId = 'com.strugglelin.circleview'        // 依赖名compile 'x:y:z'中的 x-包名
     artifactId = 'CircleView'        // 依赖名compile 'x:y:z'中的 y-项目名
-    publishVersion = '1.0.0'          // 依赖名compile 'x:y:z'中的 z-版本号
+    publishVersion = '1.0.1'          // 依赖名compile 'x:y:z'中的 z-版本号
     desc = 'a CircleView'            // 对该开源组件的说明
     website = 'https://github.com/strugglelin/CircleView'  // VCS地址，即填写项目上传的Github地址
 }
