@@ -1,4 +1,4 @@
-package com.strugglelin.circleview;
+package com.strugglelin.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
