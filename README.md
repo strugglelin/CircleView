@@ -1,12 +1,10 @@
 # CircleView
->  Click to see [English Document](https://github.com/Carson-Ho/DIY_View/blob/master/README-en.md)
+>  Click to see [English Document](https://github.com/strugglelin/CircleView/blob/master/README-en.md)
 - 作者：strugglelin
 - 概述
 
 
-
-![示意图](http://upload-images.jianshu.io/upload_images/944365-b8902a8574106af3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![示意图](https://raw.githubusercontent.com/strugglelin/CircleView/master/image/Introduction.png)
 
 
 **注：关于该开源项目的意见 & 建议可在Issue上提出。欢迎 Star ！**
@@ -19,7 +17,7 @@
 
 
 ## 2. 应用场景
-一个自定义圆形的View 
+一个自定义圆形的View
 
 
 ## 3. 特点
@@ -38,7 +36,6 @@ dependencies {
    implementation 'com.strugglelin.circleview:CircleView:1.0.4'
 }
 ```
-
 
 ##### 步骤2：设置动画属性
 - 属性说明
@@ -71,11 +68,11 @@ dependencies {
 `DIY_View` 遵循 `MIT` 开源协议
 
 ## 7. 贡献代码
-- 具体请看：[贡献代码说明](https://github.com/Carson-Ho/DIY_View/blob/master/CONTRIBUTING.md)
+- 具体请看：[贡献代码说明](https://github.com/strugglelin/CircleView/blob/master/CONTRIBUTING.md)
 - 关于该开源项目的意见 & 建议可在`Issue`上提出。欢迎 Star ！
 
 ## 8. 版本说明
-2017-03-15 v1.0.0 ：新增 圆 视图
+2019-08-01 v1.0.4 ：新增 自定义 圆形控件
 
 # 关于作者
 - ID：Strugglelin

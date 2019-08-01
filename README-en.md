@@ -1,115 +1,81 @@
-# DIY_View
->[中文文档](https://github.com/Carson-Ho/DIY_View/blob/master/README.md)
-- Author：Carson_Ho
+# CircleView
+>  Click to see [中文文档](https://github.com/strugglelin/CircleView/blob/master/README.md)
+- Author：strugglelin
 - Summary
 
 
+![示意图](https://raw.githubusercontent.com/strugglelin/CircleView/master/image/Introduction-en.png)
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-299cf0c37d4c06ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+**Note：Opinions & Suggestions about this open source project can be put forward in Issue。Welcome Star ！**
 
 ## 1. Introduction
-a simple  Android DIY View 
->[Carson_Ho的Github地址：DIY_View](https://github.com/Carson-Ho/DIY_View)
+a `CircleView`
+>Github Address：[CircleView](https://github.com/strugglelin/CircleView)
 
-
-![示意图](http://upload-images.jianshu.io/upload_images/944365-dcef19bb6ad0c77e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](https://raw.githubusercontent.com/strugglelin/CircleView/master/image/circleview.png)
 
 
 ## 2. Application Scenarios
-learning DIY View
-
+A custom Circle View
 
 
 ## 3. Feature
-- Fresh & concise style
-- Easy to use
-- Secondary Programming costs are low
+
+##### 3.1 Can customize the color of the CircleView
+
 
 ## 4. Usage
 
 ##### Step 1：Import Library
-There are two ways to  import Library：
 
-- 1. For Gradle
 *build.Gradle*
 
 ```
 dependencies {
-    compile 'scut.carson_ho:CircileView:1.0.0'
+   implementation 'com.strugglelin.circleview:CircleView:1.0.4'
 }
 ```
 
-- 2. For Maven
-*pom.xml*
-```
-<dependency>
-  <groupId>scut.carson_ho</groupId>
-  <artifactId>CircileView</artifactId>
-  <version>1.0.0</version>
-  <type>pom</type>
-</dependency>
-```
-
-
-##### Step 2：Set Animation Attributes
-- Attributes Description：
+##### Step 2：Set animation properties
+- Attributes Description:
 
 ```
-circle_color
-// 类型 = color 默认 = Color.RED（红色）
+<attr name="circle_color" format="color"/>
 ```
 
 - Use examples
+Set in the ` XML ` file
 
-*activity_main.xml*
 ```
-<scut.carson_ho.circlelibrary.libraryCircle
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#000000"
-        android:padding="30dp"
-        app:circle_color="#FF4081"
-         />
+    <com.strugglelin.circleview.CircleView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#f00"
+        app:circle_color="#ff0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 ```
 
+## 5.Complete Demo
+[Github Address：CircleView](https://github.com/strugglelin/CircleView)
 
 
+## 6.LICENSE
 
+`CircleView` is available under the `MIT` license.
 
-## 5. Complete Demo
-[Carson_Ho的Github地址：DIY_View](https://github.com/Carson-Ho/DIY_View)
+## 7.Contribute
+- Before you open an issue or create a pull request, please read [Contributing Guide](https://github.com/strugglelin/CircleView/blob/master/CONTRIBUTING.md) first.
+- Note：Opinions & Suggestions about this open source project can be put forward in Issue。Welcome Star ！
 
-
-![示意图](http://upload-images.jianshu.io/upload_images/944365-dcef19bb6ad0c77e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-
-## 6.  Source code analysis
-[手把手教你写一个完整的自定义View](http://www.jianshu.com/p/e9d8420b1b9c)
-
-
-
-## 7.  LICENSE
-DIY_View is available under the MIT license.
-
-
-
-## 8. Contribute
-Before you open an issue or create a pull request, please read [Contributing Guide](https://github.com/Carson-Ho/DIY_View/blob/master/CONTRIBUTING.md) first.
-
-
-
-## 9. Release
-2017-03-15 v1.0.0 ：add Circle View
-
-
+## 8.Release
+2019-08-01 v1.0.4 ：add Circle View
 
 # About the author
-- ID：Carson_Ho
-- 简介：CSDN签约作者、简书推荐作者、稀土掘金专栏作者
-- E - mail：[carson.ho@foxmail.com](mailto:carson.ho@foxmail.com)
-- Github：[https://github.com/Carson-Ho](https://github.com/Carson-Ho)
-- CSDN：[http://blog.csdn.net/carson_ho](http://blog.csdn.net/carson_ho)
-- 简书：[http://www.jianshu.com/u/383970bef0a0](http://www.jianshu.com/u/383970bef0a0)
-- 稀土掘金：[https://juejin.im/user/58d4d9781b69e6006ba65edc](https://juejin.im/user/58d4d9781b69e6006ba65edc)
+- ID：Strugglelin
+- E - mail：[18950261460@163.com](18950261460@163.com)
+- Github：[https://github.com/strugglelin](https://github.com/strugglelin)
+- CSDN：[https://blog.csdn.net/BlueSky003](https://blog.csdn.net/BlueSky003)
