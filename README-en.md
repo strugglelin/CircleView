@@ -42,7 +42,7 @@ allprojects {
 }
 ```
 
--app module build.Gradle*
+- app module build.Gradle
 
 ```
 dependencies {
