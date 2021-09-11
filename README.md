@@ -29,11 +29,25 @@
 
 ##### 步骤1：导入控件库
 
-*build.Gradle*
+*根目录 build.Gradle 添加 jitpack 远程仓库*
+
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        // jitpack 远程仓库
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+* app 模块 build.Gradle*
 
 ```
 dependencies {
-   implementation 'com.strugglelin.circleview:CircleView:1.0.4'
+   // implementation 'com.strugglelin.circleview:CircleView:1.0.4'
+   implementation 'com.github.strugglelin:CircleView:1.0.4'
 }
 ```
 

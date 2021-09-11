@@ -19,7 +19,8 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        // jitpack 远程仓库
+        maven { url 'https://jitpack.io' }
     }
 }
 // 配置2:防止中文注释错误

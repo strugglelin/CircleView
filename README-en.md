@@ -29,11 +29,25 @@ A custom Circle View
 
 ##### Step 1：Import Library
 
-*build.Gradle*
+*root directory build.Gradle*
+
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        // jitpack 远程仓库
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+*app module build.Gradle*
 
 ```
 dependencies {
-   implementation 'com.strugglelin.circleview:CircleView:1.0.4'
+   // implementation 'com.strugglelin.circleview:CircleView:1.0.4'
+   implementation 'com.github.strugglelin:CircleView:1.0.4'
 }
 ```
 
