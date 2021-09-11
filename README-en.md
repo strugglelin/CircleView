@@ -29,7 +29,7 @@ A custom Circle View
 
 ##### Step 1：Import Library
 
-*root directory build.Gradle*
+- root directory build.Gradle
 
 ```
 allprojects {
@@ -42,7 +42,7 @@ allprojects {
 }
 ```
 
-*app module build.Gradle*
+-app module build.Gradle*
 
 ```
 dependencies {

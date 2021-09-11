@@ -29,7 +29,7 @@
 
 ##### 步骤1：导入控件库
 
-*根目录 build.Gradle 添加 jitpack 远程仓库*
+- 根目录 build.Gradle 添加 jitpack 远程仓库
 
 ```
 allprojects {
@@ -42,7 +42,7 @@ allprojects {
 }
 ```
 
-* app 模块 build.Gradle*
+- app 模块 build.Gradle
 
 ```
 dependencies {
